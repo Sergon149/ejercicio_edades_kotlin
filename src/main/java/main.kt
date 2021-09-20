@@ -10,9 +10,10 @@ fun ifedades(){
     val numero = Random.nextInt(0,65)
     val nombre = ("Sergio")
 
-    if (numero < 18) println(", debes abonar 5€")
-    if (numero in 18..65) println(", debes abonar 10€")
-    else println(", para ti es gratis")
+    println("La edad es $numero")
+    if (numero < 18) println("$nombre, debes abonar 5€")
+    if (numero in 18..65) println("$nombre, debes abonar 10€")
+    else println("$nombre, para ti es gratis")
 
 }
 
